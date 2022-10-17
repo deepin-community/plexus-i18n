@@ -1,0 +1,27 @@
+Source: plexus-i18n
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Torsten Werner <twerner@debian.org>,
+ Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends:
+ debhelper (>= 11),
+ default-jdk,
+ junit4,
+ libplexus-component-metadata-java,
+ libplexus-container-default-java,
+ libplexus-utils-java,
+ maven-debian-helper (>= 2.2)
+Standards-Version: 4.2.1
+Vcs-Git: https://salsa.debian.org/java-team/plexus-i18n.git
+Vcs-Browser: https://salsa.debian.org/java-team/plexus-i18n
+Homepage: https://codehaus-plexus.github.io/plexus-i18n/
+
+Package: libplexus-i18n-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: a component to support internationalization of applications using Plexus
+ Plexus I18n is a set of Plexus-components supporting internationalization of
+ Plexus-based applications.

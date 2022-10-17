@@ -1,0 +1,102 @@
+plexus-i18n (1.0-beta-10-5) unstable; urgency=medium
+
+  * Team upload.
+  * Build depend on libplexus-component-metadata-java
+    instead of libplexus-maven-plugin-java
+  * Depend on libplexus-container-default-java
+    instead of libplexus-container-default1.5-java
+  * Removed the libplexus-i18n-java-doc package
+  * Standards-Version updated to 4.2.1
+  * Switch to debhelper level 11
+  * Use salsa.debian.org Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 23 Nov 2018 00:20:32 +0100
+
+plexus-i18n (1.0-beta-10-4) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on libplexus-container-default1.5-java instead of
+    libplexus-containers-java
+  * Build with the DH sequencer instead of CDBS
+  * Moved the package to Git
+  * Standards-Version updated to 4.1.0
+  * Switch to debhelper level 10
+  * Updated the Homepage field
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 30 Aug 2017 10:13:32 +0200
+
+plexus-i18n (1.0-beta-10-3) unstable; urgency=low
+
+  * Switch to default-jdk(-doc). (Closes: #567289)
+  * Remove Trydge and Paul from Uploaders list.
+  * Update Standards-Version: 3.9.1.
+  * Switch to debhelper level 7.
+  * Switch to source format 3.0.
+  * Use Maven to build the package.
+  * Update debian/copyright.
+
+ -- Torsten Werner <twerner@debian.org>  Fri, 26 Aug 2011 15:49:20 +0200
+
+plexus-i18n (1.0-beta-10-2) unstable; urgency=low
+
+  * Add missing Build-Depends: openjdk-6-doc.
+
+ -- Torsten Werner <twerner@debian.org>  Sun, 09 Aug 2009 23:40:03 +0200
+
+plexus-i18n (1.0-beta-10-1) experimental; urgency=low
+
+  [ Ludovic Claude ]
+  * New upstream version
+  * Added myself to Uploaders.
+  * Add the Maven POM to the package
+  * Add a Build-Depends-Indep dependency on maven-repo-helper
+  * Use mh_installpom and mh_installjar to install the POM and the jar to the
+    Maven repository
+  * Update the watch file to reflect changes on the web site, use
+    SVN to download the sources
+  * Add maven-build.xml to debian/ in order to support compilation with Java 1.5
+  * Change the dependency on libplexus-container-default-java to 
+    libplexus-containers-java
+  * Use openjdk-6 JDK instead of gcj to build the package
+
+  [ Torsten Werner ]
+  * Fix doc-base file.
+
+ -- Torsten Werner <twerner@debian.org>  Tue, 14 Jul 2009 11:35:41 +0200
+
+plexus-i18n (1.0-beta-7+svn6675-3) unstable; urgency=low
+
+  * Update Standards-Version: 3.8.2.
+    - Fix Homepage and Vcs headers.
+  * Change Section: java.
+  * Add missing Depends: ${misc:Depends}.
+
+ -- Torsten Werner <twerner@debian.org>  Wed, 01 Jul 2009 23:13:39 +0200
+
+plexus-i18n (1.0-beta-7+svn6675-2) experimental; urgency=low
+
+  [ Michael Koch ]
+  * Updated watch file to ignore '+svn...' part.
+  * Added myself to Uploaders.
+
+  [ Torsten Werner ]
+  * Add plexus component descriptor.
+  * Add myself to Uploaders.
+  * Do no longer quote the full text of the Apache-2.0 license in
+    debian/copyright.
+
+ -- Torsten Werner <twerner@debian.org>  Tue, 16 Dec 2008 23:23:54 +0100
+
+plexus-i18n (1.0-beta-7+svn6675-1) unstable; urgency=low
+
+  * New upstream release, to correct license problems (resulting in
+    rejection from ftp-master).
+      (Closes: #428575)
+
+ -- Paul Cager <paul-debian@home.paulcager.org>  Sat, 21 Jul 2007 00:09:27 +0100
+
+plexus-i18n (1.0-beta-6-1) unstable; urgency=low
+
+  * Initial release. (Closes: #428575)
+
+ -- Paul Cager <paul-debian@home.paulcager.org>  Tue, 12 Jun 2007 18:55:48 +0100

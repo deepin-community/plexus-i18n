@@ -1,0 +1,4 @@
+version=3
+opts="uversionmangle=s/-(alpha|beta)-/~$1/" \
+  http://svn.codehaus.org/plexus/plexus-components/tags/ \
+  plexus-i18n-(\d.*)/ debian debian/orig-tar.sh

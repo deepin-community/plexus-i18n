@@ -1,0 +1,20 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Plexus I18N Component
+Source: https://github.com/codehaus-plexus/plexus-i18n
+
+Files: *
+Copyright: 2001-2007, Codehaus.org
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2007, Trygve Laugstol <trygvis@inamo.no>
+           2011, Torsten Werner <Torsten Werner <twerner@debian.org>>
+License: GPL-2
+
+License: Apache-2.0
+  On Debian GNU/Linux system you can find the complete text of the
+  Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'.
+
+License: GPL-2
+  On Debian GNU/Linux system you can find the complete text of the
+  GLP-2 license in '/usr/share/common-licenses/GPL-2'.

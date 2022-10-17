@@ -1,0 +1,23 @@
+Description Add missing dependency plexus-container-default
+Author: Torsten Werner <twerner@debian.org>
+Forwarded: no
+--- a/pom.xml
++++ b/pom.xml
+@@ -51,6 +51,17 @@
+       <artifactId>plexus-utils</artifactId>
+       <version>1.4.5</version>
+     </dependency>
++    <dependency>
++      <groupId>org.codehaus.plexus</groupId>
++      <artifactId>plexus-container-default</artifactId>
++      <version>1.0-beta-3.0.7</version>
++    </dependency>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>4.12</version>
++      <scope>test</scope>
++    </dependency>
+   </dependencies>
+ 
+   <scm>
